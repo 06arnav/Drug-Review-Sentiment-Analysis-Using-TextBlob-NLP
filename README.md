@@ -79,13 +79,34 @@ The dataset contains patient reviews of drugs sourced from Drugs.com, along with
 
 ## Key Findings
 
-- A positive relationship exists between TextBlob polarity scores and user ratings — reviews with higher polarity tend to receive higher ratings.
+- A positive relationship exists between TextBlob polarity scores and user ratings which shows reviews with higher polarity tend to receive higher ratings.
 - Correlation analysis confirmed this trend across the dataset.
-- The Linear Regression model achieved an **R² ≈ 0.115**, meaning sentiment polarity explains roughly 11.5% of the variance in ratings. This indicates a measurable but limited predictive relationship — which makes sense given that ratings are also influenced by factors like drug effectiveness, side effects, and individual expectations that text sentiment alone cannot capture.
+- The Linear Regression model achieved an **R² ≈ 0.115**, meaning sentiment polarity explains roughly 11.5% of the variance in ratings. This indicates a measurable but limited predictive relationship, which makes sense given that ratings are also influenced by factors like drug effectiveness, side effects, and individual expectations that text sentiment alone cannot capture.
 - Sentiment classification revealed that the majority of reviews skew positive, consistent with typical online review behavior.
 
 ---
 
+## Sample Visualizations
+
+### Rating Distribution
+
+![Rating Distribution](Rating_Distribution.png)
+
+The distribution shows how user ratings are spread across the dataset, providing insight into overall patient satisfaction trends.
+
+### Sentiment Distribution
+
+![Sentiment Distribution](Sentimental_Distribution.png)
+
+Reviews were classified as Positive, Neutral, or Negative using TextBlob polarity scores. The chart highlights the overall sentiment composition of the dataset.
+
+### Polarity vs Subjectivity
+
+![Polarity vs Subjectivity](polarity_subjectivity.png)
+
+This scatter plot illustrates the relationship between sentiment polarity and subjectivity, helping visualize how opinionated reviews vary across different sentiment levels.
+
+---
 
 ## Future Improvements
 
