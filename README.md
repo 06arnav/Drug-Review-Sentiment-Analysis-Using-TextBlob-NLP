@@ -112,8 +112,6 @@ The dataset contains patient reviews of drugs sourced from Drugs.com, along with
 B.Tech — Artificial Intelligence & Machine Learning
 Symbiosis Institute of Technology, Pune
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?logo=github)](https://github.com/your-username)
-[![LinkedIn](https://www.linkedin.com/in/arnav-agrawal-7016b6308/)
 
 ---
 
