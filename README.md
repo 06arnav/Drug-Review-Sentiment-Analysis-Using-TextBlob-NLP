@@ -96,7 +96,7 @@ The distribution shows how user ratings are spread across the dataset, providing
 
 ### Sentiment Distribution
 
-![Sentiment Distribution](Sentimental_Distribution.png)
+![Sentiment Distribution](Sentiment_Distribution.png)
 
 Reviews were classified as Positive, Neutral, or Negative using TextBlob polarity scores. The chart highlights the overall sentiment composition of the dataset.
 
